@@ -21,6 +21,8 @@
 		209605D617F2530F00DF1BE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209605B817F2530F00DF1BE7 /* UIKit.framework */; };
 		209605DE17F2530F00DF1BE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 209605DC17F2530F00DF1BE7 /* InfoPlist.strings */; };
 		209605E017F2530F00DF1BE7 /* ReloadRowsAtIndexPathsLeakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209605DF17F2530F00DF1BE7 /* ReloadRowsAtIndexPathsLeakTests.m */; };
+		209605EC17F2534300DF1BE7 /* SteveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 209605EA17F2534300DF1BE7 /* SteveVC.m */; };
+		209605ED17F2534300DF1BE7 /* SteveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209605EB17F2534300DF1BE7 /* SteveVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		209605DB17F2530F00DF1BE7 /* ReloadRowsAtIndexPathsLeakTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReloadRowsAtIndexPathsLeakTests-Info.plist"; sourceTree = "<group>"; };
 		209605DD17F2530F00DF1BE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		209605DF17F2530F00DF1BE7 /* ReloadRowsAtIndexPathsLeakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReloadRowsAtIndexPathsLeakTests.m; sourceTree = "<group>"; };
+		209605E917F2534300DF1BE7 /* SteveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SteveVC.h; sourceTree = "<group>"; };
+		209605EA17F2534300DF1BE7 /* SteveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SteveVC.m; sourceTree = "<group>"; };
+		209605EB17F2534300DF1BE7 /* SteveVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SteveVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				209605C617F2530F00DF1BE7 /* Main.storyboard */,
 				209605C917F2530F00DF1BE7 /* SRViewController.h */,
 				209605CA17F2530F00DF1BE7 /* SRViewController.m */,
+				209605E917F2534300DF1BE7 /* SteveVC.h */,
+				209605EA17F2534300DF1BE7 /* SteveVC.m */,
+				209605EB17F2534300DF1BE7 /* SteveVC.xib */,
 				209605CC17F2530F00DF1BE7 /* Images.xcassets */,
 				209605BB17F2530F00DF1BE7 /* Supporting Files */,
 			);
@@ -229,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209605ED17F2534300DF1BE7 /* SteveVC.xib in Resources */,
 				209605CD17F2530F00DF1BE7 /* Images.xcassets in Resources */,
 				209605BF17F2530F00DF1BE7 /* InfoPlist.strings in Resources */,
 				209605C817F2530F00DF1BE7 /* Main.storyboard in Resources */,
@@ -250,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				209605EC17F2534300DF1BE7 /* SteveVC.m in Sources */,
 				209605C117F2530F00DF1BE7 /* main.m in Sources */,
 				209605CB17F2530F00DF1BE7 /* SRViewController.m in Sources */,
 				209605C517F2530F00DF1BE7 /* SRAppDelegate.m in Sources */,

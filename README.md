@@ -1,0 +1,3 @@
+Clicking the + button on the "Steve" view controller appears to leak the UITableView + every object that reloadRowsAtIndexPath: generated, including UIAnimations.
+
+I tested this in the Allocations instrument by clicking Mark Generation before each click of the "Steve" button, going to the view controller, coming back, marking, about 5 times.  Minimal memory retentions were witnessed.  I then repeated the test by adding in the click of the + button and the object retentions were witnessed.  I then clicked the + button 20 times, and much more memory was retained per generation mark.
